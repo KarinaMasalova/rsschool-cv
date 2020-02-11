@@ -139,7 +139,7 @@ Student* Manager::deleteStudentBySurname(string stSurname) {
 * Coursework in the language C++
 * Labs from university
 * Tasks on Codewars: https://www.codewars.com/users/KarinaMasalova
-* Landing page THEYALOW: https://github.com/KarinaMasalova/theyalow
+* Landing page THEYALOW
 
 ## Education
 * The Academy of Public Administration under the aegis of the President of the Republic of Belarus (Management of Information Resources)
