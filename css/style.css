@@ -9,11 +9,6 @@ header {
     height: 250px;
 }
 
-.wrap {
-    width: 1024px;
-    margin: 0 auto;
-}
-
 .my-photo {
     width: 30%;
     margin-top: -10%;
@@ -61,27 +56,23 @@ a:-webkit-any-link:hover {
 
  .summary-section,
  .skills-section,
- .code-section,
  .experience-section,
  .education-section,
  .english-section {
     padding: 2% 4%;
     font-family: "Poppins", "Arial", sans-serif;
     font-size: 18px;
-    letter-spacing: 0.5%;
-    color: rgb(255, 255, 255);
+    color: #fff;
     background: #28023d;
  }
 
  .summary,
  .skills,
- .code-examples,
  .experience,
  .education,
  .english {
     font-family: "Poppins", "Arial", sans-serif;
     font-size: 30px;
-    text-align: left !important;
  }
  
  .summary:after, 
@@ -95,7 +86,6 @@ a:-webkit-any-link:hover {
     width: 50px;
     margin-bottom: 20px;
     display: block;
-    text-align: center;
     border-radius: 5px;
     background: #FFA804;
  }
