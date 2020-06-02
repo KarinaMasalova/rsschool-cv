@@ -3,205 +3,101 @@
     <head>
         <title>CV</title>
         <meta charset="utf-8">
-        
-        <!-- Font -->
-
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
-        
-        <!-- Stylesheets -->
-        
         <link href="css/reset.css" rel="stylesheet">
-
         <link href="css/style.css" rel="stylesheet">
     </head>
-
     <body>
-        <section class="wrap">
-            <header>
-                <figure>
-                    <img class="bg-header" src="images/bg-header.JPG">
-                </figure>
-                <section class="header-info">
-                    <figure>
-                        <img class="profile-img" src="images/main-photo.jpg" alt="">
-                    </figure>
-
-                    <article class="general-info">
-                        <div class="name">
-                            <p>Karina Masalova</p>
-                        </div>
-                        <div class="vacancy">
-                            <p>Junior Developer</p>
-                        </div>
-                        <div class="birth-date">
-                            <p>BORN : January 19, 2000</p>
-                        </div>
-                        <div class="email">
-                            <p>EMAIL : masalova.karina@mail.ru</p>
-                        </div>
-                        <div class="contact-me">
-                            <p>YOU CAN CONTACT ME IN : <a href="https://vk.com/karina_masalova18">VK</a>, 
-                                <a href="https://www.facebook.com/masalova.karina">Facebook</a></p>
-                        </div>
-                        <div class="tel-numb">
-                            <p>TELEPHONE NUMBER : +375(44)7362189</p>
-                        </div>
-                    </article><!-- general-info -->
-                </section><!--header-info-->
-            </header>
-
-            <main>
-                <article class="summary-section">
-                    <div class="summary">
-                        Summary
-                    </div>
-                    <p>I'm a student and interested in web development. My strengths are:
-                    responsibility, discipline and I'm a quick-learning person, if something
-                    causes my interest. I also know how to work in a team, it's easy for me to get
-                    along with people. My favourite quote sounds like: <quote>"Your future is created by what
-                    you do today, not tomorrow."</quote></p>
-                </article>
-
-                <article class="skills-section">
-                        <div class="skills">
-                            Skills
-                        </div>
-                        <ul>
-                            <li>HTML5, CSS3</li>
-                            <li>Basic knowledge of JavaScript and Git</li>
-                            <li>Experience of working with Adobe Photoshop and Adobe Illustrator</li>
-                            <li>C/C++</li>
-                        </ul>
-                </article>
-                <article class="code-section">
-                    <div class="code-examples">
-                        Code examples
-                    </div>
-                    <quote>JavaScript (Find The Duplicated Number in a Consecutive Unsorted List)</quote>
-                    <pre>
-    function findDup(arr) {
-        let duplicateValue;
-        
-        arr.sort(function sortArray(a, b) {
-            return a - b;
-        });
-        
-        for (let i = 0; i &lt; arr.length - 1; i++) {
-            for (let j = i + 1; j &lt; arr.length; j++) {
-                if(arr[i] == arr[j]) {
-                duplicateValue = arr[i];
-                }
-            }
-        }
-        return duplicateValue;
-    }
-                    </pre>
-                    <quote>HTML</quote>
-                    <pre>
-    &lt;div class="wrap"&gt;
-        &lt;div class="video-section"&gt;
-            &lt;video class="birds" poster="./assets/img/video-birds.png" controls>&lt;/video&gt;
-            &lt;video class="birds-mobile" poster="./assets/img/birds-mobile.png" controls&gt;&lt;/video&gt;
-            &lt;div class="cool-min"&gt;
-                &lt;div class="cool"&gt;the cool&lt;br/&gt;
-                    &lt;span class="min">the minimal&lt;/span&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class="icon-area"&gt;
-        &lt;div class="wrap"&gt;
-            &lt;div class="better-design"&gt;
-                &lt;div class="img-design"&gt;&lt;/div&gt;
-                &lt;p class="text-design"&gt;better design&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="customise"&gt;
-                &lt;div class="img-cust"&gt;
-                    &lt;img src="./assets/img/customise.svg" alt=""&gt;
-                &lt;/div&gt;
-                &lt;p class="text-cust"&gt;customise&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="its-free"&gt;
-                &lt;div class="img-free"&gt;&lt;/div&gt;
-                &lt;p class="text-free"&gt;its free&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-                    </pre>
-
-                    <quote>CSS</quote>
-                    <pre>
-    .wrap {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1020px;
-    }
-
-    .icon-area {
-        height: 211px;
-        background-image: url(./assets/img/icon-area-bg.png);
-        background-repeat: no-repeat;
-        background-size: 100% 567px;
-    }
-    
-    .icon-area .wrap {
-        display: flex;
-    }
-    
-    .better-design,
-    .customise,
-    .its-free {
-        height: 211px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }    
-                    </pre>
-                </article>
-    
-                <article class="experience-section">
-                    <div class="experience">
-                        Experience
-                    </div>
-                        <ul>
-                            <li>Landing page in CMS WordPress</li>
-                            <li>Coursework in the language C++</li>
-                            <li>Labs from university</li>
-                            <li>Tasks on Codewars: <a href="https://www.codewars.com/users/KarinaMasalova">
-                                https://www.codewars.com/users/KarinaMasalova</a></li>
-                            <li>Landing page THEYALOW</li>
-                        </ul>
-                </article>
-                <article class="education-section">
-                    <div class="education">
-                        Education
-                    </div>
-                        <ul>
-                            <li>The Academy of Public Administration under the aegis of the President 
-                                of the Republic of Belarus (Management of Information Resources)</li>
-                            <li>Educational practice in web studio</li>
-                            <li>Online courses on Codeacademy: <a href="https://www.codecademy.com/users/karinamasalova/achievements">
-                                https://www.codecademy.com/users/karinamasalova/achievements</a></li>
-                            <li>Participating in Drupal Camp Belarus 2019</li>
-                            <li>Lectures of IT-Academy and Adukar.by</li>
-                        </ul>
-                </article>
-                <article class="english-section">
-                    <div class="english">
-                        English
-                    </div>
-                    <p>My English level is B1. I have had an experience of communicating with native speaker. It was a 
-                Contribution Day on Drupal Camp Belarus 2019, where I was engaged in translation of technical 
-                documentation (it was Umami program).</p>
-                </article>
-            </main>
-            <footer>
-                <section class="ps">
-                    <p class="made">© made by Karina Masalova, RSS 2020</p>
-                </section>
-            </footer>        
-        </section><!-- wrap -->
+        <header>
+            <div class="header-block">
+                <img class="header-bg" src="images/bg-header.JPG" alt="">
+            </div>
+            <section class="header-info">
+                <img class="my-photo" src="images/my-photo.jpg" alt="">
+                <div class="general-info">
+                    <p class="name">Karina Masalova</p>
+                    <p class="vacancy">Junior Frontend Developer</p>
+                    <p class="birth-date">BORN : January 19, 2000</p>
+                    <p class="email">EMAIL : <a href="mailto:masalova.karina@mail.ru">masalova.karina@mail.ru</a></p>
+                    <p class="contact-me">YOU CAN CONTACT ME IN :
+                        <a href="https://vk.com/karina_masalova18">VK</a>
+                    </p>
+                    <p class="telegram">TELEGRAM : @karinamasalova</p>
+                    <p class="tel-numb">TELEPHONE NUMBER : <a href="tel:+375297362189">+375447362189</a></p>
+                    <p class="github">MY EXPERIENCE IS HERE :
+                        <a href="https://github.com/KarinaMasalova" target="_blank">GitHub</a>
+                    </p>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="summary-section">
+                <h2 class="summary">Summary</h2>
+                <p>I'm a 3rd-year student and interested in web development. My strengths are:
+                responsibility, discipline and I'm a quick-learning person, if something
+                causes my interest. I also know how to work in a team, it's easy for me to get
+                along with people. My favourite quote sounds like: <quote class="fav-quote">
+                    "Your future is created by what you do today, not tomorrow."</quote></p>
+            </section>
+            <section class="skills-section">
+                <h2 class="skills">Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 (adaptive, responsive, cross-browser compatibility, flexbox)</li>
+                    <li>Bootstrap (basics)</li>
+                    <li>Experience of working with PerfectPixel</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Node.js & npm (basics)</li>
+                    <li>Webpack</li>
+                    <li>ESLint</li>
+                    <li>Babel</li>
+                    <li>Tools: Visual Studio Code, Sublime Text</li>
+                </ul>
+            </section>
+            <section class="experience-section">
+                <h2 class="experience">Experience</h2>
+                    <ul>
+                        <li>Tasks on Codewars: 
+                            <a href="https://www.codewars.com/users/KarinaMasalova" target="_blank">
+                            https://www.codewars.com/users/KarinaMasalova</a></li>
+                        <li>Landing page Singolo: 
+                            <a href="https://karinamasalova.github.io/singolo/" target="_blank">
+                            https://karinamasalova.github.io/singolo/</a></li>
+                        <li>Virtual Keyboard:
+                            <a href="https://karinamasalova.github.io/virtual-keyboard/" target="_blank">
+                            https://karinamasalova.github.io/virtual-keyboard</a></li>
+                        <li>Movie Search:
+                            <a href="https://karinamasalova-movie-search.netlify.app/" target="_blank">
+                            https://karinamasalova-movie-search.netlify.app/</a></li>
+                        <li>English for kids (not completed) 
+                            <a href="https://karinamasalova-english-for-kids.netlify.app/" target="_blank">
+                            https://karinamasalova-english-for-kids.netlify.app/</a></li>
+                        <li>You can also find code examples on my 
+                            <a href="https://github.com/KarinaMasalova" target="_blank">Github</a>.</li>
+                    </ul>
+            </section>
+            <section class="education-section">
+                <h2 class="education">Education</h2>
+                    <ul>
+                        <li>The Academy of Public Administration under the aegis of the President 
+                            of the Republic of Belarus (Information Resources Management)</li>
+                        <li>Educational practice in web studio (2 weeks in summer, 2019)</li>
+                        <li>EPAM Training: Rolling Scope School 2020 Q1 (3 months) </li>
+                        <li>Online courses on Codeacademy: 
+                            <a href="https://www.codecademy.com/users/karinamasalova/achievements" target="_blank">
+                            https://www.codecademy.com/users/karinamasalova/achievements</a></li>
+                    </ul>
+            </section>
+            <section class="english-section">
+                <h2 class="english">English</h2>
+                <p>My English level is B1. I have had an experience of communicating with native speaker. It was a 
+            Contribution Day on Drupal Camp Belarus 2019, where I was engaged in translation of technical 
+            documentation (it was Umami program).</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="made">© made by Karina Masalova</p>
+        </footer>
     </body>
 </html>
