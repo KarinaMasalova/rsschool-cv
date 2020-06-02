@@ -49,8 +49,12 @@ header {
     font-size: 25px;
 }
 
-a:hover {
+a:-webkit-any-link {
     color: lightslategray;
+}
+
+a:-webkit-any-link:hover {
+    color: orange;
 }
 
  /*MAIN*/
