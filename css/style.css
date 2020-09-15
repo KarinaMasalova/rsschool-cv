@@ -1,3 +1,7 @@
+:root {
+    --orange-color: #FFA804;
+}
+
 /*HEADER*/
 
 header {
@@ -32,16 +36,27 @@ header {
 
 .vacancy {
     font-size: 30px;
-    color: orange;
+    color: var(--orange-color);
 }
 
 .birth-date, 
 .email,
-.contact-me,
-.telegram,
-.tel-numb,
-.github {
+.tel-numb {
     font-size: 25px;
+}
+
+.social-networks {
+    margin-top: 1%;
+}
+
+.network {
+    text-decoration: none;
+    padding: 0 1%;
+}
+
+.network:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 a:-webkit-any-link {
@@ -49,17 +64,18 @@ a:-webkit-any-link {
 }
 
 a:-webkit-any-link:hover {
-    color: orange;
+    color: var(--orange-color);
 }
 
  /*MAIN*/
 
  .summary-section,
  .skills-section,
+ .projects-section,
  .experience-section,
  .education-section,
  .english-section {
-    padding: 2% 4%;
+    padding: 2% 15%;
     font-family: "Poppins", "Arial", sans-serif;
     font-size: 18px;
     color: #fff;
@@ -68,6 +84,7 @@ a:-webkit-any-link:hover {
 
  .summary,
  .skills,
+ .projects,
  .experience,
  .education,
  .english {
@@ -78,6 +95,7 @@ a:-webkit-any-link:hover {
  .summary:after, 
  .skills:after,
  .code-examples:after,
+ .projects:after,
  .experience:after,
  .education:after,
  .english:after {
@@ -87,16 +105,61 @@ a:-webkit-any-link:hover {
     margin-bottom: 20px;
     display: block;
     border-radius: 5px;
-    background: #FFA804;
+    background: var(--orange-color);
  }
 
  .fav-quote {
-    color: orange;
+    color: var(--orange-color);
  }
 
  ul {
     margin-left: 3%;
  }
+
+ .edu-block,
+ .skills-block {
+    display: flex;
+ }
+
+ .time-interval,
+ .skills-kind {
+    width: 40%;
+    color: var(--orange-color);
+ }
+
+ .edu-info,
+ .skill-info {
+    width: 60%;
+ }
+
+ .skill-item {
+    display: flex;
+ }
+
+.skill-rating {
+    margin-right: 2%;
+}
+
+.tools,
+.soft-skills {
+    margin-top: 3%;
+}
+
+ .edu-headline {
+    color: var(--orange-color);
+    text-decoration: underline;
+ }
+
+ .edu-directions {
+    margin-left: 10%;
+ }
+
+.lang-level {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid lightslategray;
+    text-align: center;
+}
 
  /*FOOTER*/
 
@@ -105,7 +168,7 @@ a:-webkit-any-link:hover {
     font-size: 14px;
     font-weight: bold;
     text-align: right;
-    background-color: orange;
+    background-color: var(--orange-color);
  }
 
  .made {     
