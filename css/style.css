@@ -1,0 +1,177 @@
+:root {
+    --orange-color: #FFA804;
+}
+
+/*HEADER*/
+
+header {
+    text-align: center;
+}
+
+.header-bg {
+    width: 100%;
+    height: 250px;
+}
+
+.my-photo {
+    width: 30%;
+    margin-top: -10%;
+    border-radius: 50%;
+}
+
+.header-info {
+    padding-bottom: 3%;
+    background: lightcyan;
+}
+
+.general-info {
+    font-family: "Poppins", "Arial", sans-serif;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.vacancy {
+    font-size: 30px;
+    color: var(--orange-color);
+}
+
+.birth-date, 
+.email,
+.tel-numb {
+    font-size: 25px;
+}
+
+.social-networks {
+    margin-top: 1%;
+}
+
+.network {
+    text-decoration: none;
+    padding: 0 1%;
+}
+
+.network:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+a:-webkit-any-link {
+    color: lightslategray;
+}
+
+a:-webkit-any-link:hover {
+    color: var(--orange-color);
+}
+
+ /*MAIN*/
+
+ .summary-section,
+ .skills-section,
+ .projects-section,
+ .experience-section,
+ .education-section,
+ .english-section {
+    padding: 2% 15%;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background: #28023d;
+ }
+
+ .summary,
+ .skills,
+ .projects,
+ .experience,
+ .education,
+ .english {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 30px;
+ }
+ 
+ .summary:after, 
+ .skills:after,
+ .code-examples:after,
+ .projects:after,
+ .experience:after,
+ .education:after,
+ .english:after {
+    content: '';
+    height: 10px;
+    width: 50px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    background: var(--orange-color);
+ }
+
+ .fav-quote {
+    color: var(--orange-color);
+ }
+
+ ul {
+    margin-left: 3%;
+ }
+
+ .edu-block,
+ .skills-block {
+    display: flex;
+ }
+
+ .time-interval,
+ .skills-kind {
+    width: 40%;
+    color: var(--orange-color);
+ }
+
+ .edu-info,
+ .skill-info {
+    width: 60%;
+ }
+
+ .skill-item {
+    display: flex;
+ }
+
+.skill-rating {
+    margin-right: 2%;
+}
+
+.tools,
+.soft-skills {
+    margin-top: 3%;
+}
+
+ .edu-headline {
+    color: var(--orange-color);
+    text-decoration: underline;
+ }
+
+ .edu-directions {
+    margin-left: 10%;
+ }
+
+.lang-level {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid lightslategray;
+    text-align: center;
+}
+
+ /*FOOTER*/
+
+ .footer {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    background-color: var(--orange-color);
+ }
+
+ .made {     
+    margin-right: 2%;
+ }
+ 
