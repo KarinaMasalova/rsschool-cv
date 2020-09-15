@@ -27,25 +27,6 @@ My goal is to be in a space, where people create useful things and make high dem
 * React
 
 ## Code examples
-**JavaScript**
-```
-function findDup(arr) {
-    let duplicateValue;
-    
-    arr.sort(function sortArray(a, b) {
-        return a - b;
-    });
-    
-    for (let i = 0; i < arr.length - 1; i++) {
-        for (let j = i + 1; j < arr.length; j++) {
-            if(arr[i] == arr[j]) {
-            duplicateValue = arr[i];
-            }
-        }
-    }
-    return duplicateValue;
-}
-```
 **HTML**
 ```
 <div class="icon-area">
